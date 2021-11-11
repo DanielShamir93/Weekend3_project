@@ -1,7 +1,7 @@
+getShortestWords = (prevVal, currVal) => prevVal.length < currVal.length ? prevVal : currVal;
+
 const shortestWords = str => {
-    return str.split(' ').reduce((prevVal, currVal) => {
-        return prevVal.length < currVal.length ? prevVal : currVal;
-    }).length;
+    return str.split(' ').reduce(getShortestWords).length;
 }
 
 

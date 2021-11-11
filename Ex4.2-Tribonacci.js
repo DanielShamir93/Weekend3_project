@@ -8,4 +8,4 @@ const tribonacci = (arr, n) => {
 
 
 
-console.log(tribonacci([1, 1, 1], 8));
+console.log(tribonacci([300,200,100],0));

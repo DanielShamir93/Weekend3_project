@@ -1,6 +1,6 @@
 const findNextSquare = num => {
     let sqrt = Math.sqrt(num);
-    return Math.round(sqrt) === sqrt ? Math.pow(num+1, 2) : -1; 
+    return Math.round(sqrt) === sqrt ? Math.pow(sqrt + 1, 2) : -1; 
 }
 
 

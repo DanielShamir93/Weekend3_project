@@ -1,7 +1,7 @@
+oddIndexCapitalEvenIndexLower = val => val.toUpperCase()[0] + val.toLowerCase()[1];
+
 const toWeirdCase = str => {
-    return str.replace(/../g, val => {
-        return val.toUpperCase()[0] + val.toLowerCase()[1];
-    })
+    return str.replace(/\w\w/g,  oddIndexCapitalEvenIndexLower)
 }
 
 

@@ -1,4 +1,3 @@
-
 const centuryFromYear = year => {
     const preYear = parseInt(year.toString().slice(0, 2));
     const sufYear = parseInt(year.toString().slice(2, 4));

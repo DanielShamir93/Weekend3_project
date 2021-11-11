@@ -1,8 +1,8 @@
-const shortestWords = str => {
-    return str.split(' ').reduce((prevVal, currVal) => {
-        return prevVal.length > currVal.length ? prevVal : currVal;
-    }).length;
+getLongestWords = (prevVal, currVal) => prevVal.length > currVal.length ? prevVal : currVal;
+
+const LongestWords = str => {
+    return str.split(' ').reduce(getLongestWords).length;
 }
 
 
-console.log(shortestWords('I shot the sheriff but I did not shoot the deputy'));  // --> 7
+console.log(LongestWords('I shot the sheriff but I did not shoot the deputy'));  // --> 7
