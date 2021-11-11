@@ -10,4 +10,5 @@ const addNumbers = (a, b) => {
     return a + b;
 }
 
+
 console.log(sumOf2LowestNums([19, 5, 42, 2, 77]));
