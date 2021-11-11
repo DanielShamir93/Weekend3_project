@@ -3,11 +3,7 @@ const centuryFromYear = year => {
     const preYear = parseInt(year.toString().slice(0, 2));
     const sufYear = parseInt(year.toString().slice(2, 4));
     
-    if (sufYear > 0) {
-        return preYear + 1;
-    } else {
-        return preYear;
-    }
+    return sufYear > 0 ? preYear + 1 : preYear;
 }
 
 
