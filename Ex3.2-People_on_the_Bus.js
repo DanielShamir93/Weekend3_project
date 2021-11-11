@@ -8,4 +8,4 @@ const peopleOnTheBus = arr => {
 
 
 
-console.log(peopleOnTheBus([[10, 3], [4, 2], [0, 2], [5, 0], [10, 8]]));
+console.log(peopleOnTheBus([[10, 3], [4, 2], [0, 2], [5, 0], [10, 8]]));   // --> 14
