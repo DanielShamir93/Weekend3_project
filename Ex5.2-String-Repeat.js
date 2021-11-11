@@ -1,5 +1,5 @@
 const repeatStr = (count, str) => {
-    return str.padEnd(str.length * count, str);
+    return str.repeat(count);
 }
 
 
